@@ -10,12 +10,16 @@ using System.Windows.Forms;
 
 namespace calculadora2
 {
-    public partial class Form1 : Form
+    public partial class bt : Form
     {
-        public Form1()
+        public bt()
         {
             InitializeComponent();
         }
 
+        private void btnsumar_Click(object sender, EventArgs e)
+        {
+            //lblresultado.Text=(Convert.ToInt32(txtcantidad1.Text) + Convert.ToInt32(txtcantidad2.Text)).ToString();l
+        }
     }
 }
